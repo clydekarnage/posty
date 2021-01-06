@@ -35,5 +35,10 @@ class RegisterController extends Controller
             
         ]);
 
+        // redirect
+        // sign in
+
+        return redirect()->route('dashboard');
+
     }
 }
